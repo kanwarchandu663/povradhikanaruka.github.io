@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Radhika Crochet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🧶 Radhika Crochet</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="page">
+  <h2>Contact Us 💌</h2>
+
+  <p><strong>Owner:</strong> Radhika Naruka</p>
+  <p><strong>Business Established:</strong> 2026</p>
+
+  <form onsubmit="sendMessage(event)">
+    <input type="text" id="name" placeholder="Your Name" required>
+
+    <input type="email" id="email" placeholder="Your Email" required>
+
+    <textarea id="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <p id="response"></p>
+</section>
+
+<footer>
+  <p>© 2026 Radhika Crochet | Handmade With Love 💕</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
